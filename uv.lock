@@ -204,7 +204,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "datasette" },
+    { name = "datasette", specifier = ">=0.65.1" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "sqlite-utils", specifier = ">=3.38" },
 ]
